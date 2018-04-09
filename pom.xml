@@ -14,11 +14,12 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- junit版本 -->
 		<junit.version>4.11</junit.version>
-		<spring.version>4.2.6.RELEASE</spring.version>
+		<spring.version>4.3.13.RELEASE</spring.version>
 		<!-- mongo.driver版本 -->
 		<mongo.version>3.2.2</mongo.version>
 		<!-- mongodb框架版本 -->
 		<morphia.version>1.2.1</morphia.version>
+		<fastjson.version>1.2.46</fastjson.version>
 		<!-- dom4j版本 -->
 		<dom4j.version>1.6.1</dom4j.version>
 		<!-- jsp版本 -->
@@ -26,7 +27,7 @@
 		<!-- servlet版本 -->
 		<servlet.version>3.1.0</servlet.version>
 		<!-- slf4j版本 -->
-		<slf4j.version>1.7.21</slf4j.version>
+		<slf4j.version>1.7.25</slf4j.version>
 		<!-- log4j版本 -->
 		<log4j.version>1.2.17</log4j.version>
 	</properties>
@@ -217,13 +218,12 @@
 			<version>1.2</version>
 		</dependency>
 
-		<!--阿里的fastjson -->
+		<!-- fastjson -->
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
-			<version>1.2.20</version>
+			<version>${fastjson.version}</version>
 		</dependency>
-
 	</dependencies>
 	<repositories>
 		<repository>
